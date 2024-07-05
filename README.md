@@ -35,14 +35,6 @@ huggingface-hub
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
-pip install -r requirements.txt
-
-OPENAI_API_KEY=your_openai_api_key
-
-##To run the application 
-streamlit run app.py
-
-
 # uncomment to use instructor embeddings
 InstructorEmbedding
 sentence-transformers
